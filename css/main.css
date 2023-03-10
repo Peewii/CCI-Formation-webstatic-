@@ -312,3 +312,46 @@ em {
 .cv-card i {
     transition: all .4s ease-in-out;
 }
+
+ /******** section "A propos" */
+.div-contact {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ .div-contact .profil1 {
+    width: 30%;
+    
+
+ }
+
+ .profil-img {
+    width: 100%;
+    border-radius: var(--border-radius);
+    box-shadow: -20px 20px 0px 0px rgba(33,33,33,0.7),
+0px 0px 30px 30px rgba(33,33,33,0.4),
+-40px 40px 0px 0px rgba(33,33,33,0.1);
+ }
+ 
+ .btn-know {
+    background-color: #3f9b93;
+    color: #fff;
+    box-sizing: border-box;
+    padding: .5em 1em;
+    margin-top: 2em;;
+    border-radius: var(--border-radius);
+    font-weight: bold;
+ }
+ 
+.btn-know:hover {
+    background-color: var(--secondary);
+    transition: all .4s ease-in;
+}
+
+.text-contact {
+    width: 65%;
+
+}
